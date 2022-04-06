@@ -30,4 +30,41 @@
   border-width: 5px;
 }
 
+.box-01 {
+  height: 155px;
+  width: 155px;
+}
+
+.box-02 {
+  height: 160px;
+  width: 160px;
+}
+
+.box-03 {
+  height: 165px;
+  width: 165px;
+}
+
+.box-04 {
+  height: 170px;
+  width: 170px;
+}
+
+.box-05 {
+  height: 175px;
+  width: 175px;
+}
+
+.box-10 {
+  background-color: gray;
+}
+
+.box-30 {
+  background-color: gray;
+}
+
+.box-50 {
+  background-color: gray;
+}
+
 /*# sourceMappingURL=style.css.map */
