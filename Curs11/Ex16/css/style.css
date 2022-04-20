@@ -19,3 +19,53 @@
   justify-content: end;
   align-content: end;
 }
+
+.grid-container-2 {
+  display: grid;
+  height: 350px;
+  grid-template-columns: repeat(3, 45px);
+  grid-template-rows: repeat(3, 45px);
+  background-color: lightsalmon;
+  justify-content: center;
+  align-content: center;
+}
+
+.grid-container-3 {
+  display: grid;
+  height: 350px;
+  grid-template-columns: repeat(3, 45px);
+  grid-template-rows: repeat(3, 45px);
+  background-color: lightgreen;
+  justify-content: center;
+  align-content: end;
+}
+
+.grid-container-4 {
+  display: grid;
+  height: 350px;
+  grid-template-columns: repeat(3, 45px);
+  grid-template-rows: repeat(3, 45px);
+  background-color: lightslategray;
+  justify-content: start;
+  align-content: start;
+}
+
+.grid-container-5 {
+  display: grid;
+  height: 350px;
+  grid-template-columns: repeat(3, 45px);
+  grid-template-rows: repeat(3, 45px);
+  background-color: lightpink;
+  justify-content: center;
+  align-content: start;
+}
+
+.grid-container-6 {
+  display: grid;
+  height: 350px;
+  grid-template-columns: repeat(3, 45px);
+  grid-template-rows: repeat(3, 45px);
+  background-color: lightgoldenrodyellow;
+  justify-content: end;
+  align-content: center;
+}

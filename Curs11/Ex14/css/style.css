@@ -27,6 +27,7 @@
   display: grid;
   max-width: 1920px;
   width: 100%;
+  margin: 0 auto;
   grid-template-areas:
     'header'
     'content'
@@ -57,5 +58,15 @@
       'sidebar . content'
       'footer footer footer';
     grid-template-columns: 320px 25px 1fr;
+  }
+}
+
+@media (min-width: 521px) {
+  .grid-container {
+    grid-template-areas:
+      'header'
+      'sidebar'
+      'content'
+      'footer';
   }
 }

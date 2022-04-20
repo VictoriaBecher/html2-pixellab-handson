@@ -60,3 +60,13 @@
       'sidebar footer footer footer';
   }
 }
+
+@media (max-width: 520px) {
+  .grid-container {
+    grid-template-areas:
+      'header'
+      'content'
+      'sidebar'
+      'footer';
+  }
+}
