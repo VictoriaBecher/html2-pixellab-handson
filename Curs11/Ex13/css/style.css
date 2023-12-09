@@ -25,9 +25,10 @@
 
 .grid-container {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1280px;
   margin: 0 auto;
   display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
     'header header header header'
     'sidebar . content content'
